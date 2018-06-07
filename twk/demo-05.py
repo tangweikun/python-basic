@@ -14,3 +14,4 @@ print(isinstance(A(), A))  # True
 print(type(A()) == A)  # True
 print(isinstance(B(), A))  # True
 print(type(B()) == A)  # False
+print(type(B()) == A())  # False
