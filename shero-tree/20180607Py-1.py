@@ -35,3 +35,5 @@ print(dict)
 
 dict2 = {'open': 'close', 'sun': 'rain', 'sun': 'rainbow'}
 print(dict2)
+
+
