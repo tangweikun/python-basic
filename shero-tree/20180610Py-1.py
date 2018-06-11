@@ -10,12 +10,12 @@ while b < 10000:
 age = int(input("input your age："))
 print('')
 if age < 0:
-    print('are you kidding?')
-elif a < 18:
+    print('are you kidding天?')
+elif age < 18:
     print('you are a cool teenager!')
-elif a < 38:
+elif age < 38:
     print('you are a cool younger!')
-elif a < 60:
+elif age < 60:
     print('you are a busy man!')
 else:
     print('have a good body!')
