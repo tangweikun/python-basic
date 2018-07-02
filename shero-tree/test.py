@@ -1,1 +1,1 @@
-print('H\n e\n l\n l\n o\n \n W\n o\n r\n l\n d')
+print('H\ne\nl\nl\no\n\nW\no\nr\nl\nd')
