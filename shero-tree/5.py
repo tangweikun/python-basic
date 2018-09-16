@@ -1,3 +1,4 @@
+
 def getNum():
     nums = []
     iNumStr = input("请输入数字（回车退出）：")
@@ -17,7 +18,7 @@ def mean(numbers):
 def dev(numbers, mean):
     sdev = 0.0
     for num in numbers:
-        sdev = sdev + (numbers - mean) ** 2
+        sdev = sdev + (num - mean) ** 2
     return pow(sdev / (len(numbers) - 1), 0.5)
 
 
